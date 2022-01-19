@@ -1,0 +1,20 @@
+{
+  "name": "nomadcode-project",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --exec node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^2.25.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
