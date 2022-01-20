@@ -9,4 +9,4 @@ React, React Native, Express Module, Prisma
 2022-01-08 GraphQL Server 구축  
 2022-01-09 Apollo Server 구축  
 2022-01-17 Babal 설치 및 적용  
-2022-01-19 Prisma 세팅
+2022-01-20 Prisma 설치 및 Project 적용
