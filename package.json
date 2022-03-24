@@ -1,9 +1,11 @@
 {
   "name": "nomadcode-project",
   "version": "1.0.0",
+  "descripts": "",
   "scripts": {
     "dev": "nodemon --exec node server.js",
-    "migrate": "npx prisma migrate dev --preview-feature"
+    "migrate": "npx prisma migrate dev --preview-feature",
+    "studio": "npx prisma studio"
   },
 
   "author": "",
