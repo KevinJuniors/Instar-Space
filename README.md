@@ -2,7 +2,7 @@
 인스타그램 카피 프로젝트 Github 저장소입니다.  
 
 ## Skills  
-React, Express Module, Prisma  
+React, Express Module, Prisma, GraphQL, Babel, JavaScript ES6 
 
 ## History  
 {2022-01-07} Instar-Projcet Github 저장소 생성  
