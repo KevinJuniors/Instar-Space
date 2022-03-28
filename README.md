@@ -12,3 +12,4 @@ React, Express Module, Prisma
 2022-01-20 Prisma 설치 및 Project 적용    
 2022-03-23 프리즈마 마이그레이션 & 클라이언트  
 2022-03-28 user.mutations - 사용자 계정 DB 추가코드 적용   
+2022-03-29 00:00 user.mutations - 사용자 계정 DB 추가 코드 적용 및 사용자 프로필 업데이트 구현
