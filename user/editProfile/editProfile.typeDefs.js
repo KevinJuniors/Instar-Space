@@ -15,4 +15,4 @@ export default gql`
         password: String
         ): EditProfileResult!
     }
-`
+`;
