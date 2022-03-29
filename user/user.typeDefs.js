@@ -10,26 +10,4 @@ export default gql`
     createdAt: String!
     updatedAt: String!
   }
-
-  type LoginResult {
-    pass: Boolean!
-    token: String
-    errer: String
-  }
-
-  type Mutation {
-    createAccount(
-      firstName: String!
-      lastName: String
-      username: String!
-      email: String!
-      password: String!
-    ): User
-
-    login(username: String!, password: String!): LoginResult!
-  }
-  
-  type Query {
-    seeProfile(username: String!): User
-  }
 `;
