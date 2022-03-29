@@ -11,6 +11,12 @@ export default gql`
     updatedAt: String!
   }
 
+  type LoginResult {
+    pass: Boolean!
+    token: String
+    errer: String
+  }
+
   type Mutation {
     createAccount(
       firstName: String!
@@ -19,6 +25,8 @@ export default gql`
       email: String!
       password: String!
     ): User
+
+    login(username: String!, password: String!): LoginResult!
   }
   
   type Query {
