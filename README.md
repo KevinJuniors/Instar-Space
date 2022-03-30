@@ -1,9 +1,10 @@
-# Instar-Project
+## Instar-Project
 
 ## Skills  
 React, Express Module, Prisma  
 
 ## History  
+# Backend-work History
 2022-01-07 Instar-Projcet Github 저장소 생성  
 2022-01-08 GraphQL Server 구축  
 2022-01-09 Apollo Server 구축  
@@ -13,3 +14,5 @@ React, Express Module, Prisma
 2022-03-28 user.mutations - 사용자 계정 DB 추가코드 적용   
 2022-03-29 프로필 업데이트 백엔드 기능 추가 
 2022-03-30 사용자 인증 백엔드 기능 추가  
+   
+# Frontend-work History 
