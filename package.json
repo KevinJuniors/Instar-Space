@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "nodemon --exec babel-node server",
+    "dev": "nodemon --exec babel-node server --delay 2",
     "migrate": "npx prisma migrate dev --preview-feature",
     "studio": "npx prisma studio",
-    "prisma-init": "npx prisma init",
-    "prisma-reset": "npx prisma migrate reset --preview-feature"
+    "preinstall": "npx npm-force-resolutions"
+  },
+
+  "resolutions": {
+    "fs-capacitor": "^6.2.0",
+    "graphql-upload": "^11.0.0"
   },
 
   "repository": {
