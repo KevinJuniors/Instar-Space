@@ -12,7 +12,6 @@ export default {
           error: "User not found.",
         };
       }
-
       const passwordOk = await bcrypt.compare(password, user.password);
       if (!passwordOk) {
         return {
@@ -20,7 +19,6 @@ export default {
           error: "Incorrect password.",
         };
       }
-      
       const token = await jwt.sign({ id: user.id }, process.env.SECRET_KEY);
       return {
         ok: true,

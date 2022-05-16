@@ -5,7 +5,6 @@ export default gql`
     ok: Boolean!
     error: String
   }
-  
   type Mutation {
     createAccount(
       firstName: String!
